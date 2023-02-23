@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 25px;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.box {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.imgDiv {
+  border-radius: 5px;
+}
+
+.box h2 {
+  margin: 10px;
+  font-weight: 500;
+}
+
+.box button {
+  margin: 8px;
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}

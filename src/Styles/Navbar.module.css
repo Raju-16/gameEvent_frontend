@@ -1,0 +1,22 @@
+.navItems {
+  list-style: none;
+  display: flex;
+  background: black;
+  padding: 16px 20px;
+  color: white;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.navItems li {
+  margin: 0px 40px;
+}
+
+.navItems li a {
+  text-decoration: none;
+  color: white;
+}
+
+.details {
+  display: flex;
+}
